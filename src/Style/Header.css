@@ -12,9 +12,12 @@
     position: static;
   }
   .dropdown-content {
-    width: 100%;
+    width: 90%;
     max-width: 400px;
     right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
   }
 }
@@ -286,5 +289,9 @@ nav a:hover {
 
 .menu a:hover {
   color: white;
+}
+
+.cartButton {
+  position: relative;
 }
 /*# sourceMappingURL=Header.css.map */

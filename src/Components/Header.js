@@ -50,12 +50,14 @@ export default function Header(props) {
             </nav>
             <div className="cartSection">
             <div  className="cart" >
+                <div className='cartButton'>
                 <img onClick={() => {
                 if(visable == "show") setVisable("hide");
                 else setVisable("show");
                 checkIfCartIsEmpty()
             }} src={cartImage}/> 
             <span className='itemsCounter'>{carArr.length}</span>
+            </div>
                 <div id={visable}  className="dropdown-content">
                     <h4>Cart</h4>
                     <div id={noItemVisable} className='noItem'>
